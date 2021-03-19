@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AppAppBar from '../components/app_bar';
+import Navbar from '../components/navbar/navbar';
 import Copyright from '../components/copyright';
 import {
   Typography,
@@ -30,7 +30,7 @@ class OSS extends Component<OSSProps, OSSState> {
     const { classes } = this.props;
     return (
       <React.Fragment>
-        <AppAppBar title="OSS" />
+        <Navbar title="OSS" />
         <div className={classes.content}>
           <Typography variant="h4" component="h1" gutterBottom>
             Open Source Projekte

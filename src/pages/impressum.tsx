@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AppAppBar from '../components/app_bar';
+import Navbar from '../components/navbar/navbar';
 import Copyright from '../components/copyright';
 import {
   Typography,
@@ -30,7 +30,7 @@ class Impressum extends Component<ImpressumProps, ImpressumState> {
     const { classes } = this.props;
     return (
       <React.Fragment>
-        <AppAppBar title="Impressum" />
+        <Navbar title="Impressum" />
         <div className={classes.content}>
           <Typography variant="h4" component="h1" gutterBottom>
             Impressum
@@ -95,7 +95,7 @@ class Impressum extends Component<ImpressumProps, ImpressumState> {
             </p>
 
             <p>
-              <b>Haftung für Links</b>
+              <b>Haftung für Links</b> <br />
               Unser Angebot enthält Links zu externen Webseiten Dritter, auf
               deren Inhalte wir keinen Einfluss haben. Deshalb können wir für
               diese fremden Inhalte auch keine Gewähr übernehmen. Für die

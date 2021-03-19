@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AppAppBar from '../components/app_bar';
+import Navbar from '../components/navbar/navbar';
 import Copyright from '../components/copyright';
 import {
   Typography,
@@ -30,7 +30,7 @@ class Youtube extends Component<YoutubeProps, YoutubeState> {
     const { classes } = this.props;
     return (
       <React.Fragment>
-        <AppAppBar title="YouTube" />
+        <Navbar title="YouTube" />
         <div className={classes.content}>
           <Typography variant="h4" component="h1" gutterBottom>
             YouTube

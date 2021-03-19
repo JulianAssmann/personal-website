@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AppAppBar from '../components/app_bar';
+import Navbar from '../components/navbar/navbar';
 import Copyright from '../components/copyright';
 import {
   Typography,
@@ -30,7 +30,7 @@ class Apps extends Component<AppsProps, AppsState> {
     const { classes } = this.props;
     return (
       <React.Fragment>
-        <AppAppBar title="Apps" />
+        <Navbar title="Apps" />
         <div className={classes.content}>
           <Typography variant="h4" component="h1" gutterBottom>
             Apps
