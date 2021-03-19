@@ -1,13 +1,13 @@
 {
-  "name": "typescript-nextjs-starter",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "name": "julianassmann",
+  "description": "Personal website of Julian Aßmann",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <oi@joaopedro.cc> (joaopedro.cc)",
+  "author": "Julian Aßmann <kontakt@julianassmann.de> (julianassmann.de)",
   "license": "MIT",
   "keywords": [
+    "julianassmann",
     "nextjs",
-    "starter",
     "typescript"
   ],
   "scripts": {
@@ -27,10 +27,15 @@
   "dependencies": {
     "@material-ui/core": "4.11.2",
     "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
     "clsx": "1.1.1",
     "next": "10.0.5",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "next-typed-css": "^1.1.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "reactstrap": "^8.9.0",
+    "scss": "^0.2.4",
+    "typewriter-effect": "^2.17.0"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",

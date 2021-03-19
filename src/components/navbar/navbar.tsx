@@ -79,10 +79,10 @@ class NavBar extends React.Component<NavbarProps, NavbarState> {
     breakpoint: number = 930;
 
     navLinks = [
+        { title: 'Home', path: '/' },
         { title: 'YouTube', path: '/youtube' },
         { title: 'Open Source', path: '/oss' },
         { title: 'Apps', path: '/apps' },
-        { title: 'über mich', path: '/about' },
         { title: 'Impressum & Datenschutz', path: '/impressum' },
     ];
 
@@ -91,7 +91,7 @@ class NavBar extends React.Component<NavbarProps, NavbarState> {
         return (
             <div>
                 <HideOnScroll>
-                    <AppBar position="fixed">
+                    <AppBar>
                         <Toolbar component="nav" className={classes.toolbar}>
                                 <Link className={classes.indexLink} href="/" underline="none">
                                     Julian Aßmann
@@ -125,7 +125,6 @@ class NavBar extends React.Component<NavbarProps, NavbarState> {
                     </AppBar>
                 </HideOnScroll>
                 <Toolbar id="back-to-top-anchor" />
-
                 <BackToTop>
                     <Fab color="primary" size="large" aria-label="scroll back to top">
                         <KeyboardArrowUp />

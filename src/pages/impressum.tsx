@@ -4,6 +4,7 @@ import Copyright from '../components/copyright';
 import {
   Typography,
   Theme,
+  Link,
   createStyles,
   withStyles,
   WithStyles,
@@ -12,7 +13,7 @@ import {
 const styles = ({ palette, spacing }: Theme) => createStyles({
     content: {
         marginTop: 20,
-        marginLeft: 20,
+        marginLeft: 20, 
         marginRight: 20
     }
 });
@@ -46,9 +47,9 @@ class Impressum extends Component<ImpressumProps, ImpressumState> {
               <br />
               Telefon: +4915258761908 <br />
               E-Mail:{' '}
-              <a href="mailto:kontakt@julianassmann.de">
+              <Link href="mailto:kontakt@julianassmann.de">
                 kontakt@julianassmann.de
-              </a>{' '}
+              </Link>{' '}
               <br />
             </p>
             <p>
@@ -145,9 +146,9 @@ class Impressum extends Component<ImpressumProps, ImpressumState> {
 
             <p>
               Haftungsausschluss von{' '}
-              <a href="https://www.impressum-generator.de/">
+              <Link href="https://www.impressum-generator.de/">
                 impressum-generator.de
-              </a>
+              </Link>
             </p>
           </Typography>
           <Copyright />

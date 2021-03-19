@@ -16,8 +16,9 @@
     "baseUrl": "./src",
     "paths": {
       "@/*": ["./*"]
-    }
+    },
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   },
   "exclude": ["node_modules"],
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/link.jsx", "src/components/link.jsx"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/link.jsx", "src/components/link.jsx", "src/components/navbar/back_to_top.jsx", "src/components/navbar/side_drawer.jsx"]
 }
