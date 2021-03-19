@@ -13,7 +13,7 @@ const styles = ({ palette, spacing }: Theme) => createStyles({
     content: {
         marginTop: 20,
         marginLeft: 20,
-        marginRigth: 20
+        marginRight: 20
     }
 });
 
