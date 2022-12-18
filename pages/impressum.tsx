@@ -18,8 +18,8 @@ class Impressum extends Component<{}, {}> {
                     <p>
                         <b>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</b> <br />
                         Julian Aßmann <br />
-                        Dossenheimer Landstraße 48/2 <br />
-                        69121 Heidelberg <br />
+                        Stephanienstraße 36<br />
+                        76133 Karlsruhe<br />
                     </p>
 
                     <p>

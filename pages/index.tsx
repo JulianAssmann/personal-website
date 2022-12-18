@@ -24,10 +24,10 @@ const Home: NextPage = () => {
             <Typewriter
               options={{
                 strings: [
-                  'STAR student at SAP', 
-                  'Master student of computer science',
+                  'Master Student of Computer Science @ SAP', 
                   'Open Source Developer',
-                  'YouTuber (Programming Tutorials)'],
+                  'YouTuber (Programming Tutorials)'
+                ],
                 autoStart: true,
                 loop: true,
                 delay: 50,
